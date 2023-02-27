@@ -4,7 +4,7 @@
 @delay = 20
 @fps = 0.050
 @direction = 0
-@str = "Hello World, I am Ruby and I can do lots! I can display animations in the consol, I can edit files and do math and make system calls. My oh my what can't I do. Compilemy code to cpu specific bytecodes and create an exe? I can do that too, I can write files with text but I am also byte wise which means you could program me to encode mp3 files in pure ruby, if you had the math guts. I have been talking about my self long enough, its time to reset the marqee."
+@str = "Hello World, I am Ruby and I can do lots! I can say hello world, and your mother."
 @spacer = ""
 @space = " "
 @delay_spacer = ""
