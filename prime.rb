@@ -1,10 +1,7 @@
-def prime? n 
-  rv=true;c=1;l=n-1 
-  until c>=l
-    c+=1
-    if (n.to_f/c.to_f).to_s.split(".")[-1].to_i==0
-      rv=false;c=n
-    end    
+  def prime?
+    return false if self <= 1
+    (2..Math.sqrt(self)).each do |i|
+      return false if self % i == 0
+    end
+    return true
   end
-  return rv
-end
